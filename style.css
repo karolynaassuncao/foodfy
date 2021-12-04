@@ -1,4 +1,4 @@
-:root{
+:root {
   --color-grey: #7f8480;
 }
 
@@ -9,29 +9,31 @@
   border: 0;
 }
 
-html, body{
+html,
+body {
   height: 100%;
 }
 
-main{
+main {
   min-height: 100%;
   margin: 16px 200px;
 }
 
-header{
+header {
   width: 100%;
   height: 70px;
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 
-.logo{
+.logo {
   height: 30px;
   width: 100px;
   margin: 0 100px 0 0;
 }
 
-header a{
+header a {
   text-decoration: none;
   padding: 20px;
   font-family: sans-serif;
@@ -39,15 +41,7 @@ header a{
   color: black;
 }
 
-/* section {
-  height: 70%;
-  width: 60%;
-  background: red;
-  margin: 0 auto;
-  margin-top: -30px;
-} */
-
-.card-principal{
+.card-principal {
   height: 100%;
   background: #ffdcdc;
   border-radius: 16px;
@@ -56,7 +50,7 @@ header a{
   justify-content: space-around;
 }
 
-.text{
+.text {
   max-width: 1200px;
   min-width: 200px;
   display: flex;
@@ -65,16 +59,16 @@ header a{
   margin: 60px;
 }
 
-.text h2{
+.text h2 {
   font-size: 22px;
   margin-bottom: 6px;
 }
 
-.text p{
+.text p {
   font-size: 14px;
 }
-  
-.img{
+
+.img {
   max-width: 1200px;
   min-width: 200px;
   margin: 50px 60px 0;
@@ -82,55 +76,48 @@ header a{
   justify-content: right;
 }
 
-.cards-receitas{
+.cards-receitas {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 
-h3{
+h3 {
   font-family: sans-serif;
   margin: 40px 0 20px;
 }
 
-.card-image-container img{
+.card-image-container img {
   width: 100%;
   border-radius: 10px;
 }
 
-.card-content{
+.card-content {
   margin-top: 5px;
   font-family: sans-serif;
   font-size: 14px;
 }
 
-.card-info{
+.card-info {
   margin-top: 5px;
   font-family: sans-serif;
   font-size: 12px;
   color: var(--color-grey);
 }
 
-#about{
+#about {
   font-family: sans-serif;
 }
-#about h2{
+#about h2 {
   margin: 18px 0;
 }
 
-#about p{
+#about p {
   font-size: 14px;
 }
 
-
-
-
-
-
-
-
-footer{
+footer {
   position: absolute;
   width: 100%;
   height: 45px;
@@ -143,4 +130,3 @@ footer{
   background: rgb(227, 228, 230);
   color: var(--color-grey);
 }
-
